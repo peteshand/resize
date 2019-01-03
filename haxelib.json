@@ -1,0 +1,16 @@
+{
+	"name": "resize",
+	"url": "https://github.com/peteshand/resize",
+	"license": "MIT",
+	"tags": ["resize", "openfl"],
+	"description": "An alternative way to define stage resize listeners",
+	"version": "1.0.0",
+	"releasenote": "initial commit",
+	"contributors": [ "p.j.shand" ],
+	"classPath": "src",
+	"dependencies": {
+		"openfl": "",
+		"signals": "",
+		"time": ""
+	}
+}
