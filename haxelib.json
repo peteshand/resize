@@ -5,7 +5,7 @@
 	"tags": ["resize", "openfl"],
 	"description": "An alternative way to define stage resize listeners",
 	"version": "1.0.1",
-	"releasenote": "update readme",
+	"releasenote": "update readme ",
 	"contributors": [ "p.j.shand" ],
 	"classPath": "src",
 	"dependencies": {
