@@ -4,8 +4,8 @@
 	"license": "MIT",
 	"tags": ["resize", "openfl"],
 	"description": "An alternative way to define stage resize listeners",
-	"version": "1.0.2",
-	"releasenote": "update readme",
+	"version": "1.0.3",
+	"releasenote": "add fire on add",
 	"contributors": [ "p.j.shand" ],
 	"classPath": "src",
 	"dependencies": {
