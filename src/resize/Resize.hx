@@ -41,9 +41,9 @@ class Resize {
 		}
 	}
 
-	public static function add(callback:Void->Void, fireOnce:Bool = false, priority:Int = 0, ?fireOnAdd:Null<Bool> = null):Void {
+	public static function add(callback:Void->Void, ?fireOnAdd:Null<Bool> = null, ?repeat:Int = -1, ?priority:Int = 0):Void {
 		init();
-		onResize.add(callback, fireOnce, priority, fireOnAdd);
+		onResize.add(callback, fireOnAdd, repeat, priority);
 		callback();
 	}
 
