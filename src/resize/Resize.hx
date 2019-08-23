@@ -41,10 +41,11 @@ class Resize {
 		}
 	}
 
-	public static function add(callback:Void->Void, ?fireOnAdd:Null<Bool> = null, ?repeat:Int = -1, ?priority:Int = 0):Void {
+	public static function add(callback:Callback, ?fireOnce:Bool = false, ?priority:Int = 0, ?fireOnAdd:Null<Bool> = null):BaseSignal<Callback> {
 		init();
-		onResize.add(callback, fireOnAdd, repeat, priority);
+		onResize.add(callback, fireOnce, priority, fireOnAdd);
 		callback();
+		return onResize;
 	}
 
 	public static function dispatch():Void {

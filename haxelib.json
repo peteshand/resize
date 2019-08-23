@@ -4,8 +4,8 @@
 	"license": "MIT",
 	"tags": ["resize", "openfl"],
 	"description": "An alternative way to define stage resize listeners",
-	"version": "1.1.0",
-	"releasenote": "Signals 1.2.0 compatibility update",
+	"version": "1.1.1",
+	"releasenote": "Signals 1.2.1 compatibility update",
 	"contributors": [ "p.j.shand" ],
 	"classPath": "src",
 	"dependencies": {
