@@ -1,6 +1,6 @@
 package resize;
 
-import signal.Signal;
+import signals.Signal;
 import time.EnterFrame;
 import openfl.display.Stage;
 import openfl.events.Event;
@@ -41,7 +41,7 @@ class Resize {
 		}
 	}
 
-	public static function add(callback:Callback, ?fireOnce:Bool = false, ?priority:Int = 0, ?fireOnAdd:Null<Bool> = null):BaseSignal<Callback> {
+	public static function add(callback:Void->Void, ?fireOnce:Bool = false, ?priority:Int = 0, ?fireOnAdd:Null<Bool> = null):BaseSignal<Void->Void> {
 		init();
 		onResize.add(callback, fireOnce, priority, fireOnAdd);
 		callback();
